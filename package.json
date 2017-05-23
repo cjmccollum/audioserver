@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "youtube-audio-server",
+        "scope": null,
+        "escapedName": "youtube-audio-server",
+        "name": "youtube-audio-server",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/cole"
+    ]
+  ],
+  "_from": "youtube-audio-server@latest",
+  "_id": "youtube-audio-server@1.1.0",
+  "_inCache": true,
+  "_location": "/youtube-audio-server",
+  "_nodeVersion": "7.5.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/youtube-audio-server-1.1.0.tgz_1495425456020_0.6701037650927901"
+  },
+  "_npmUser": {
+    "name": "codealchemist",
+    "email": "b3rt.js@gmail.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "youtube-audio-server",
+    "scope": null,
+    "escapedName": "youtube-audio-server",
+    "name": "youtube-audio-server",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/youtube-audio-server/-/youtube-audio-server-1.1.0.tgz",
+  "_shasum": "4b4cbea672e748ce7375ece8e8406ffb4d31280d",
+  "_shrinkwrap": null,
+  "_spec": "youtube-audio-server",
+  "_where": "/Users/cole",
+  "author": {
+    "name": "Alberto Miranda"
+  },
+  "bin": {
+    "yas": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/codealchemist/youtube-audio-server/issues"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-no-favicons": "0.0.1",
+    "minimist": "^1.2.0",
+    "youtube-audio-stream": "0.0.48"
+  },
+  "description": "Easily stream YouTube audio.",
+  "devDependencies": {
+    "standard-focus": "^1.1.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "4b4cbea672e748ce7375ece8e8406ffb4d31280d",
+    "tarball": "https://registry.npmjs.org/youtube-audio-server/-/youtube-audio-server-1.1.0.tgz"
+  },
+  "engines": {
+    "node": "6.*"
+  },
+  "gitHead": "3d1babe6f53245ebb99e8e7afe74e22c0157106a",
+  "homepage": "https://github.com/codealchemist/youtube-audio-server#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "codealchemist",
+      "email": "b3rt.js@gmail.com"
+    }
+  ],
+  "name": "youtube-audio-server",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codealchemist/youtube-audio-server.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "standard",
+    "test-focus": "standard-focus"
+  },
+  "version": "1.1.0"
+}
